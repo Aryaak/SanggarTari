@@ -1,0 +1,37 @@
+.tarian-box {
+    z-index: -1;
+    background-image: url('../assets/img/tarian/remo.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#owl-carousel {
+    display: flex !important;
+}
+
+#navbar {
+    transition: 0.5s;
+    z-index: 9999;
+}
+
+#navbar.sticky {
+    transition: 0.5s;
+    background-color: #090705;
+    border-bottom: 2px solid #FA0030;
+}
+
+/* Page content */
+.content {
+    padding: 16px;
+}
+
+/* The sticky class is added to the navbar with JS when it reaches its scroll position */
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.nav-active {
+    border-bottom: 2px solid white;
+}
